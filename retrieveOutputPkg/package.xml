@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simple2</fullName>
+    <types>
+        <members>Internet__c.Account_Number__c</members>
+        <members>Internet__c.Is_it_useful__c</members>
+        <members>Internet__c.Type_of_Internet__c</members>
+        <members>Internet_of_things__c.Costing_Range__c</members>
+        <members>Internet_of_things__c.Internet_MDR__c</members>
+        <members>Internet_of_things__c.Things__c</members>
+        <members>Internet_of_things__c.What_falls_under_IOT__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Internet__c</members>
+        <members>Internet_of_things__c</members>
+        <members>Learning1__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Internet__c-Internet Layout</members>
+        <members>Internet_of_things__c-Internet of things Layout</members>
+        <members>Learning1__c-Learning1 Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Internet__c.All</members>
+        <members>Internet__c.Internet_Lists</members>
+        <members>Internet_of_things__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Internet__c.Account_Number_Blank</members>
+        <members>Internet__c.Account_Number_Limit</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>53.0</version>
+</Package>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Costing_Range__c</fullName>
+        <externalId>false</externalId>
+        <label>Costing Range</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1000-2000</fullName>
+                    <default>false</default>
+                    <label>1000-2000</label>
+                </value>
+                <value>
+                    <fullName>2000-3000</fullName>
+                    <default>false</default>
+                    <label>2000-3000</label>
+                </value>
+                <value>
+                    <fullName>3000-4000</fullName>
+                    <default>false</default>
+                    <label>3000-4000</label>
+                </value>
+                <value>
+                    <fullName>5000-6000</fullName>
+                    <default>false</default>
+                    <label>5000-6000</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Internet_MDR__c</fullName>
+        <externalId>false</externalId>
+        <label>Internet</label>
+        <referenceTo>Internet__c</referenceTo>
+        <relationshipLabel>Internet of things</relationshipLabel>
+        <relationshipName>Internet_of_things</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Things__c</fullName>
+        <displayFormat>T-{00000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Things</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>What_falls_under_IOT__c</fullName>
+        <externalId>false</externalId>
+        <label>What falls under IOT?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Costing_Range__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Autonomous farming equipment.</fullName>
+                    <default>false</default>
+                    <label>Autonomous farming equipment.</label>
+                </value>
+                <value>
+                    <fullName>Biometric cybersecurity scanners.</fullName>
+                    <default>false</default>
+                    <label>Biometric cybersecurity scanners.</label>
+                </value>
+                <value>
+                    <fullName>Connected appliances.</fullName>
+                    <default>false</default>
+                    <label>Connected appliances.</label>
+                </value>
+                <value>
+                    <fullName>Smart factory equipment.</fullName>
+                    <default>false</default>
+                    <label>Smart factory equipment.</label>
+                </value>
+                <value>
+                    <fullName>Smart home security systems.</fullName>
+                    <default>false</default>
+                    <label>Smart home security systems.</label>
+                </value>
+                <value>
+                    <fullName>Ultra-high speed wireless internet.</fullName>
+                    <default>false</default>
+                    <label>Ultra-high speed wireless internet.</label>
+                </value>
+                <value>
+                    <fullName>Wearable health monitors.</fullName>
+                    <default>false</default>
+                    <label>Wearable health monitors.</label>
+                </value>
+                <value>
+                    <fullName>Wireless inventory trackers.</fullName>
+                    <default>false</default>
+                    <label>Wireless inventory trackers.</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>1000-2000</controllingFieldValue>
+                <valueName>Autonomous farming equipment.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1000-2000</controllingFieldValue>
+                <valueName>Biometric cybersecurity scanners.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>2000-3000</controllingFieldValue>
+                <valueName>Connected appliances.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>2000-3000</controllingFieldValue>
+                <valueName>Smart factory equipment.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3000-4000</controllingFieldValue>
+                <valueName>Smart home security systems.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3000-4000</controllingFieldValue>
+                <valueName>Ultra-high speed wireless internet.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>5000-6000</controllingFieldValue>
+                <valueName>Wearable health monitors.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>5000-6000</controllingFieldValue>
+                <valueName>Wireless inventory trackers.</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <label>Internet of things</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Internet of things Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Internet of things</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>
